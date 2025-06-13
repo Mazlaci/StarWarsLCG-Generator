@@ -1,0 +1,284 @@
+/* all */
+#preview.unit #border, #preview.unit {
+    width: 502px;
+    height: 700px;
+}
+
+#preview.unit #force {
+    top: 90px;
+    left: 20px;
+}
+
+#preview.unit #main {
+    top: 432px;
+    left: 40px;
+    width: calc(100% - 40px - 40px);
+}
+
+#preview.unit #resource {
+    top: 370px;
+    left: 421px;
+}
+#preview.unit #resource_image {
+    top: 363px;
+    left: 420px;
+}
+
+#preview.objective #priority {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+/* Neutral */
+
+#preview.unit.neutral #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.neutral #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.neutral #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.neutral #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.neutral #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.neutral #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.neutral #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Sith */
+#preview.unit.sith #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.sith #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.sith #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.sith #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.sith #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.sith #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.sith #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Imperial */
+#preview.unit.imperial #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.imperial #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.imperial #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.imperial #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.imperial #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.imperial #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.imperial #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Scum */
+#preview.unit.scum #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.scum #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.scum #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.scum #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.scum #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.scum #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.scum #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Smuggler */
+#preview.unit.smuggler #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.smuggler #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.smuggler #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.smuggler #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.smuggler #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.smuggler #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.smuggler #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Rebel */
+#preview.unit.rebel #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.rebel #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.rebel #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.rebel #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.rebel #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.rebel #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.rebel #set_order {
+    bottom: 26px;
+    right: 11px;
+}
+
+/* Jedi */
+#preview.unit.jedi #cycle_image {
+    top: 634px;
+    left: 404px;
+}
+
+#preview.unit.jedi #name {
+    top: 38px;
+    left: 110px;
+}
+
+#preview.unit.jedi #cost {
+    top: 25px;
+    left: 10px;
+}
+
+#preview.unit.jedi #hp {
+    top: 628px;
+    left: 7px;
+}
+
+#preview.unit.jedi #combat_icons{
+    top: 370px;
+    left: 70px;
+}
+
+#preview.unit.jedi #set_number {
+    bottom: 27px;
+    right: 106px;
+}
+
+#preview.unit.jedi #set_order {
+    bottom: 26px;
+    right: 11px;
+}

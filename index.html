@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars LCG</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/texteditor.css">
+    <link rel="stylesheet" href="styles/cards/general.css">
+    <link rel="stylesheet" href="styles/cards/enhancement.css">
+    <link rel="stylesheet" href="styles/cards/event.css">
+    <link rel="stylesheet" href="styles/cards/fatecard.css">
+    <link rel="stylesheet" href="styles/cards/mission.css">
+    <link rel="stylesheet" href="styles/cards/objective.css">
+    <link rel="stylesheet" href="styles/cards/unit.css">
+    <link rel="stylesheet" href="styles/font.css">
+</head>
+
+<body>
+    <h1 id="title">Star Wars LCG Card Editor</h1>
+    <form id="editor" class="editor">
+        <p>Card type: <br />
+            <input type="radio" name="cardType" id="objective" checked />
+            <label for="objective">Objective</label>
+            <input type="radio" name="cardType" id="unit" />
+            <label for="unit">Unit</label>
+            <input type="radio" name="cardType" id="enhancement" />
+            <label for="enhancement">Enhancement</label>
+            <input type="radio" name="cardType" id="event" />
+            <label for="event">Event</label>
+            <input type="radio" name="cardType" id="fatecard" />
+            <label for="fatecard">Fate Card</label>
+            <input type="radio" name="cardType" id="mission" />
+            <label for="mission">Mission</label>
+        </p>
+        <p>Affiliation: <br/>
+            <input type="radio" name="affiliation" id="neutral" checked/>
+            <label for="neutral">Neutral</label>
+            <input type="radio" name="affiliation" id="sith" />
+            <label for="sith">Sith</label>
+            <input type="radio" name="affiliation" id="imperial" />
+            <label for="imperial">Imperial</label>
+            <input type="radio" name="affiliation" id="scum" />
+            <label for="scum">Scum</label>
+            <input type="radio" name="affiliation" id="smuggler" />
+            <label for="smuggler">Smuggler</label>
+            <input type="radio" name="affiliation" id="rebel" />
+            <label for="rebel">Rebel</label>
+            <input type="radio" name="affiliation" id="jedi" />
+            <label for="jedi">Jedi</label>
+        </p>
+        <p></p>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" />
+        <input type="checkbox" name="unique" id="unique" />
+        <label for="unique">Unique</label>
+        <p></p>
+        <label for="cost">Resource cost: </label>
+        <input type="text" name="cost" id="cost" class="textNumber" />
+        <label for="force">Force icons: </label>
+        <input type="number" name="force" id="force" min="0" max="5" step="1" value="0" />
+        <p>Combat icons: <br />
+            <label for="unit">Unit damage: </label>
+            <input type="number" name="unit" id="unit" min="0" max="6" step="1" value="0" />
+            <label for="unit_edge">Edge-enabled: </label>
+            <input type="number" name="unit_edge" id="unit_edge" min="0" max="6" step="1" value="0" /> <br />
+            <label for="blast">Blast damage: </label>
+            <input type="number" name="blast" id="blast" min="0" max="6" step="1" value="0" />
+            <label for="blast_edge">Edge-enabled: </label>
+            <input type="number" name="blast_edge" id="blast_edge" min="0" max="6" step="1" value="0" /> <br />
+            <label for="tactics">Tactics: </label>
+            <input type="number" name="tactics" id="focus" min="0" max="6" step="1" value="0" />
+            <label for="tactics_edge">Edge-enabled: </label>
+            <input type="number" name="tactics_edge" id="tactics_edge" min="0" max="6" step="1" value="0" />
+        </p>
+        <p></p>
+        <label for="hp">Damage capacity: </label>
+        <input type="text" name="hp" id="hp" class="textNumber"/>
+        <label for="resource">Resource value: </label>
+        <input type="text" name="resource" id="resource" class="textNumber"/>
+        <label for="priority">Priority: </label>
+        <input type="text" name="priority" id="priority" class="textNumber"/>
+        <p></p>
+        <label for="traits">Traits: </label>
+        <textarea name="traits" id="traits" cols="40" rows="1"></textarea>
+        <p></p>
+        <label for="text">Text: </label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        <div id="text_buttons">
+            <input type="button" value="" id="unit" class="img">
+            <input type="button" value="" id="blast" class="img">
+            <input type="button" value="" id="tactics" class="img">
+            <input type="button" value="" id="unit_edge" class="img">
+            <input type="button" value="" id="blast_edge" class="img">
+            <input type="button" value="" id="tactics_edge" class="img">
+            <br/>
+            <input type="button" value="" id="sith" class="img">
+            <input type="button" value="" id="imperial" class="img">
+            <input type="button" value="" id="scum" class="img">
+            <input type="button" value="" id="smuggler" class="img">
+            <input type="button" value="" id="rebel" class="img">
+            <input type="button" value="" id="jedi" class="img">
+            <br/>
+            <input type="button" value="Bold" id="bold">
+            <input type="button" value="Italic" id="italic">
+            <input type="button" value="Newline" id="newline">
+        </div>
+        <p></p>
+        <label for="description">Description: </label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <p></p>
+        <label for="picture">Picture: </label>
+        <input type="file" name="picture" id="picture" accept="image/png, image/jpeg" />
+        <p>
+            <label for="set_number">Set number: </label>
+            <input type="text" name="set_number" id="set_number" />
+            <input type="number" name="set_order" id="set_order" min="1" max="6" step="1" /> / 6
+        </p>
+        <p></p>
+        <label for="cycle_image">Cycle image: </label>
+        <input type="file" name="cycle_image" id="cycle_image" accept="image/png, image/jpeg" />
+        <p>
+            <input type="button" value="Generate" id="generate" />
+            <input type="button" value="Save" id="save" />
+            <input type="text" name="fileName" id="fileName" value="card">.png
+        </p>
+        <p>
+            Datafile: 
+            <input type="button" value="Save" id="saveData" />
+            <input type="file" value="Load" id="loadData" accept=".swlcg"/>
+        </p>
+        <p>
+            Extract: 
+            <input type="button" value="Picture" id="extractPicture" />
+            <input type="button" value="Cycle image" id="extractCycleImage" class="hidden" />
+        </p>
+        <a href="shortcuts.html" target="_blank" rel="noopener noreferrer">Keyboard shortcuts</a>
+    </form>
+    <div id="generated">
+        <div id="preview" class="hidden">
+            <div>
+                <img src="data/images/no_image.png" alt="picture" id="picture">
+                <img src="data/images/no_image.png" alt="cycle_image" id="cycle_image">
+                <img src="data/images/borders/objective/neutral.png" alt="border" id="border">
+                <img src="data/images/other/resource.png" alt="resource" id="resource_image">
+                <div id="name"><img src="data/images/text_icons/unique.png" alt="unique" id="unique"><p id="name_text">Example</p></div>
+                <p id="cost"></p>
+                <div id="force"></div>
+                <div id="combat_icons"></div>
+                <p id="hp"></p>
+                <p id="resource"></p>
+                <p id="priority">
+                <div id="main">
+                    <p id="traits"></p>
+                    <p id="text"></p>
+                    <p id="description"></p>
+                </div>
+                <p id="set_number"></p>
+                <p id="set_order"></p>
+            </div>
+        </div>
+        <form id="pictureEditor" class="editor">
+            <p></p>
+            <label for="top">X Coordinate: </label>
+            <input type="number" name="top" id="top" min="-2000" max="2000" step="10" value="0" /> px
+            <input type="range" name="topRange" id="topRange" min="-2000" max="2000" step="10" value="0" />
+            <label for="left">Y Coordinate: </label>
+            <input type="number" name="left" id="left" min="-2000" max="2000" step="10" value="0" /> px
+            <input type="range" name="leftRange" id="leftRange" min="-2000" max="2000" step="10" value="0" />
+            <label for="width">Zoom: </label>
+            <input type="number" name="width" id="width" min="10" max="1000" step="1" value="100" /> %
+            <input type="range" name="widthRange" id="widthRange" min="10" max="500" step="1" value="100" />
+            <label for="rotation">Rotation: </label>
+            <input type="number" name="rotation" id="rotation" min="0" max="360" step="1" value="0" /> °
+            <input type="range" name="rotationRange" id="rotationRange" min="0" max="360" step="1" value="0" />
+            <p></p>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="bundle/common.js"></script>
+<script src="bundle/main.js"></script>
+<script src="bundle/editPicture.js"></script>
+
+</html>

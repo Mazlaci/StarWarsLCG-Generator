@@ -1,0 +1,224 @@
+/* all */
+#preview.enhancement #border, #preview.enhancement {
+    width: 502px;
+    height: 700px;
+}
+
+#preview.enhancement #force {
+    top: 90px;
+    left: 20px;
+}
+
+#preview.enhancement #main {
+    top: 497px;
+    left: 110px;
+    width: calc(100% - 110px - 10px);
+}
+
+#preview.enhancement #resource {
+    top: 417px;
+    left: 421px;
+}
+
+#preview.enhancement #resource_image {
+    top: 410px;
+    left: 420px;
+}
+
+#preview.enhancement #priority {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.enhancement #hp {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#prieview.enhancement #combat_icons {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+/* Neutral */
+#preview.enhancement.neutral #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.neutral #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.neutral #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.neutral #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.neutral #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Sith */
+#preview.enhancement.sith #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.sith #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.sith #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.sith #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.sith #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Imperial */
+#preview.enhancement.imperial #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.imperial #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.imperial #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.imperial #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.imperial #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Scum */
+#preview.enhancement.scum #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.scum #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.scum #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.scum #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.scum #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Smuggler */
+#preview.enhancement.smuggler #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.smuggler #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.smuggler #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.smuggler #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.smuggler #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Rebel */
+#preview.enhancement.rebel #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.rebel #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.rebel #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.rebel #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.rebel #set_order {
+    bottom: 32px;
+    right: 11px;
+}
+
+/* Jedi */
+#preview.enhancement.jedi #cycle_image {
+    top: 628px;
+    left: 405px;
+}
+
+#preview.enhancement.jedi #name {
+    top: 28px;
+    left: 123px;
+}
+
+#preview.enhancement.jedi #cost {
+    top: 16px;
+    left: 10px;
+}
+
+#preview.enhancement.jedi #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.enhancement.jedi #set_order {
+    bottom: 32px;
+    right: 11px;
+}

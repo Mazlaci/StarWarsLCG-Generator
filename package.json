@@ -1,0 +1,25 @@
+{
+  "name": "star-wars-lcg",
+  "version": "1.0.0",
+  "description": "Star Wars LCG card editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mazug László",
+  "license": "ISC",
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "factor-bundle": "^2.5.0"
+  },
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^1.10.8",
+    "js-yaml": "^4.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+/* all */
+#preview.objective #border, #preview.objective {
+    width: 700px;
+    height: 502px;
+}
+
+#preview.objective #main {
+    top: 320px;
+    left: 95px;
+    width: calc(100% - 95px - 40px);
+}
+
+#preview.objective #combat_icons {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.objective #force {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.objective #priority {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.objective #cost {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.objective #resource_image {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+/* Neutral */
+#preview.objective.neutral #cycle_image {
+    top: 450px;
+    left: 600px;
+}
+
+#preview.objective.neutral #name {
+    top: 269px;
+    left: 133px;
+}
+
+#preview.objective.neutral #hp {
+    top: 439px;
+    left: 8px;
+}
+
+#preview.objective.neutral #resource {
+    top: 258px;
+    left: 615px;
+}
+
+#preview.objective.neutral #set_number {
+    bottom: 32px;
+    right: 106px;
+}
+
+#preview.objective.neutral #set_order {
+    bottom: 31px;
+    right: 11px;
+}
+
+
+/* Sith */
+#preview.objective.sith #cycle_image {
+    top: 448px;
+    left: 604px;
+}
+
+#preview.objective.sith #name {
+    top: 270px;
+    left: 122px;
+}
+
+#preview.objective.sith #hp {
+    top: 442px;
+    left: 10px;
+}
+
+#preview.objective.sith #resource {
+    top: 260px;
+    left: 616px;
+}
+
+#preview.objective.sith #set_number {
+    bottom: 33px;
+    right: 110px;
+}
+
+#preview.objective.sith #set_order {
+    bottom: 33px;
+    right: 6px;
+}
+
+
+/* Imperial */
+#preview.objective.imperial #cycle_image {
+    top: 439px;
+    left: 604px;
+}
+
+#preview.objective.imperial #name {
+    top: 267px;
+    left: 104px;
+}
+
+#preview.objective.imperial #hp {
+    top: 436px;
+    left: 8px;
+}
+
+#preview.objective.imperial #resource {
+    top: 258px;
+    left: 616px;
+}
+
+#preview.objective.imperial #set_number {
+    bottom: 29px;
+    right: 108px;
+}
+
+#preview.objective.imperial #set_order {
+    bottom: 28px;
+    right: 7px;
+}
+
+
+/* Scum */
+#preview.objective.scum #cycle_image {
+    top: 436px;
+    left: 595px;
+}
+
+#preview.objective.scum #name {
+    top: 270px;
+    left: 135px;
+}
+
+#preview.objective.scum #hp {
+    top: 435px;
+    left: 0px;
+}
+
+#preview.objective.scum #resource {
+    top: 260px;
+    left: 608px;
+}
+
+#preview.objective.scum #main {
+    top: 322px;
+    left: 95px;
+    width: calc(100% - 95px - 40px);    
+}
+
+#preview.objective.scum #set_number {
+    bottom: 32px;
+    right: 120px;
+}
+
+#preview.objective.scum #set_order {
+    bottom: 33px;
+    right: 17px;
+}
+
+
+/* Smuggler */
+#preview.objective.smuggler #cycle_image {
+    top: 443px;
+    left: 604px;
+}
+
+#preview.objective.smuggler #name {
+    top: 267px;
+    left: 140px;
+}
+
+#preview.objective.smuggler #hp {
+    top: 437px;
+    left: 8px;
+}
+
+#preview.objective.smuggler #resource {
+    top: 257px;
+    left: 615px;
+}
+
+#preview.objective.smuggler #set_number {
+    bottom: 37px;
+    right: 103px;
+}
+
+#preview.objective.smuggler #set_order {
+    bottom: 36px;
+    right: 9px;
+}
+
+
+/* Rebel */
+#preview.objective.rebel #cycle_image {
+    top: 448px;
+    left: 606px;
+}
+
+#preview.objective.rebel #name {
+    top: 268px;
+    left: 118px;
+}
+
+#preview.objective.rebel #hp {
+    top: 437px;
+    left: 7px;
+}
+
+#preview.objective.rebel #resource {
+    top: 259px;
+    left: 613px;
+}
+
+#preview.objective.rebel #set_number {
+    bottom: 33px;
+    right: 102px;
+}
+
+#preview.objective.rebel #set_order {
+    bottom: 32px;
+    right: 8px;
+}
+
+
+/* jedi */
+#preview.objective.jedi #cycle_image {
+    top: 445px;
+    left: 610px;
+}
+
+#preview.objective.jedi #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.objective.jedi #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.objective.jedi #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.objective.jedi #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.objective.jedi #set_order {
+    bottom: 36px;
+    right: 5px;
+}

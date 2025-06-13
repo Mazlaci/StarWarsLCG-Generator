@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../data/font/EurostileBold.woff2') format('woff2'),
+        url('../data/font/EurostileBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EuroStile';
+    src: url('../data/font/EuroStyleNormal.woff2') format('woff2'),
+        url('../data/font/EuroStyleNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../data/font/Eurostile-Oblique.woff2') format('woff2'),
+        url('../data/font/Eurostile-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile Extended';
+    src: url('../data/font/EurostileExtended-Roman.woff2') format('woff2'),
+        url('../data/font/EurostileExtended-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../data/font/Teko-Medium.woff2') format('woff2'),
+        url('../data/font/Teko-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../data/font/Teko-Light.woff2') format('woff2'),
+        url('../data/font/Teko-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../data/font/Teko-Bold.woff2') format('woff2'),
+        url('../data/font/Teko-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../data/font/Teko-Regular.woff2') format('woff2'),
+        url('../data/font/Teko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../data/font/Teko-SemiBold.woff2') format('woff2'),
+        url('../data/font/Teko-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Impact Condensed';
+    src: url('../data/font/URWImpactW01-BoldCondensed.woff2') format('woff2'),
+        url('../data/font/URWImpactW01-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

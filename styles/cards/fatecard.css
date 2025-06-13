@@ -1,0 +1,240 @@
+/* all */
+#preview.fatecard #border, #preview.fatecard {
+    width: 502px;
+    height: 700px;
+}
+
+#preview.fatecard #force {
+    top: 78px;
+    left: 20px;
+}
+
+#preview.fatecard #main {
+    top: 94px;
+    left: 99px;
+    width: calc(100% - 99px - 54px);
+}
+
+#preview.fatecard #name {
+    text-align: center;
+}
+#preview.fatecard #name #name_text {
+    top: 0px;
+    left: 0px;
+}
+
+#preview.fatecard #hp {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.fatecard #cost {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.fatecard #resource {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.fatecard #resource_image {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#prieview.fatecard #combat_icons {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+/* Neutral */
+#preview.fatecard.neutral #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.neutral #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.neutral #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.neutral #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.neutral #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+
+/* Sith */
+#preview.fatecard.sith #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.sith #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.sith #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.sith #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.sith #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+/* Imperial */
+#preview.fatecard.imperial #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.imperial #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.imperial #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.imperial #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.imperial #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+/* Scum */
+#preview.fatecard.scum #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.scum #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.scum #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.scum #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.scum #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+/* Smuggler */
+#preview.fatecard.smuggler #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.smuggler #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.smuggler #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.smuggler #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.smuggler #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+/* Rebel */
+#preview.fatecard.rebel #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.rebel #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.rebel #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.rebel #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.rebel #set_order {
+    bottom: 21px;
+    right: 9px;
+}
+
+/* Jedi */
+#preview.fatecard.jedi #cycle_image {
+    top: 637px;
+    left: 407px;
+}
+
+#preview.fatecard.jedi #priority {
+    top: 52px;
+    left: 440px;
+}
+
+#preview.fatecard.jedi #name {
+    top: 33px;
+    left: 123px;
+    width: calc(100% - 123px - 123px);
+}
+
+#preview.fatecard.jedi #set_number {
+    bottom: 22px;
+    right: 100px;
+}
+
+#preview.fatecard.jedi #set_order {
+    bottom: 21px;
+    right: 9px;
+}

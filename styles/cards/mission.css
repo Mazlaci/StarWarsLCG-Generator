@@ -1,0 +1,288 @@
+/* all */
+#preview.mission #border, #preview.mission {
+    width: 700px;
+    height: 502px;
+}
+
+#preview.mission #main {
+    top: 320px;
+    left: 95px;
+    width: calc(100% - 95px - 40px);
+}
+
+#preview.mission #force {
+    top: 20px;
+    right: 90px;    
+}
+
+#preview.mission #cost {
+    transform: rotate(90deg);
+}
+
+#preview.mission #combat_icons {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.mission #priority {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#preview.mission #resource_image {
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+/* Neutral */
+#preview.mission.neutral #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.neutral #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.neutral #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.neutral #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.neutral #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.neutral #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.neutral #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Sith */
+#preview.mission.sith #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.sith #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.sith #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.sith #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.sith #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.sith #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.sith #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Imperial */
+#preview.mission.imperial #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.imperial #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.imperial #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.imperial #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.imperial #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.imperial #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.imperial #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Scum */
+#preview.mission.scum #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.scum #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.scum #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.scum #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.scum #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.scum #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.scum #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Smuggler */
+#preview.mission.smuggler #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.smuggler #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.smuggler #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.smuggler #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.smuggler #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.smuggler #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.smuggler #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Rebel */
+#preview.mission.rebel #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.rebel #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.rebel #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.rebel #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.rebel #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.rebel #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.rebel #set_order {
+    bottom: 36px;
+    right: 5px;
+}
+
+/* Jedi */
+#preview.mission.jedi #cycle_image {
+    top: 445px;
+    left: 610px;;
+}
+
+#preview.mission.jedi #name {
+    top: 265px;
+    left: 133px;
+}
+
+#preview.mission.jedi #hp {
+    top: 438px;
+    left: 5px;
+}
+
+#preview.mission.jedi #cost {
+    top: 9px;
+    left: 623px;
+}
+
+#preview.mission.jedi #resource {
+    top: 253px;
+    left: 621px;
+}
+
+#preview.mission.jedi #set_number {
+    bottom: 37px;
+    right: 99px;
+}
+
+#preview.mission.jedi #set_order {
+    bottom: 36px;
+    right: 5px;
+}

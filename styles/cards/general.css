@@ -1,0 +1,197 @@
+#preview>div {
+    position: relative;
+    overflow: hidden;
+}
+
+/* images */
+#preview #picture {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+#preview #cycle_image {
+    position: absolute;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#preview #resource_image {
+    position: absolute;
+}
+
+/* texts */
+#preview p {
+    position: absolute;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'EuroStile';
+    letter-spacing: 0.1em;
+}
+
+/* name + unique */
+#preview #name {
+    position: absolute;
+    width: 100%;
+}
+
+#preview #name #name_text {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Teko';
+    letter-spacing: normal;
+    font-size: 33px;
+    line-height: 33px;
+}
+
+#preview #name #unique {
+    height: 22px;
+    vertical-align: -60%;
+    margin-right: 2px;
+    display: none;
+}
+
+#preview.unique #name #unique {
+    display: inline-block;
+}
+
+
+/* cost, hp, resource */
+#preview #cost, #preview #hp, #preview #resource {
+    width: 70px;
+    font-size: 51px;
+    line-height: 57px;
+    font-family: 'Impact Condensed';
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+#preview #cost {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#preview #hp {
+    text-shadow: -1px -1px 0 #b0252c, 1px -1px 0 #b0252c, -1px 1px 0 #b0252c, 1px 1px 0 #b0252c;
+}
+
+#preview #resource {
+    text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+}
+
+
+#preview #priority {
+    width: 40px;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+/* traits + text + description */
+#preview #main {
+    position: absolute;
+}
+
+#preview #main p {
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+}
+
+#preview #main #traits {
+    min-height: 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#preview #main #text {
+    min-height: 2em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#preview #main #description p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+#preview #main #description p em{
+    font-style: normal;
+}
+
+#preview #main #text p {
+    margin-bottom: 6px;
+}
+
+#preview #main #text img {
+    display: inline-block;
+    height: 0.9em;
+    vertical-align: middle;
+}
+
+
+#preview #main #text em {
+    display: inline-block;
+    font-size: 14px;
+}
+
+#preview #main #text ul, #preview #main #text ol {
+    margin: 0px;
+    margin-bottom: 6px;
+    padding: 0px;
+    padding-left: 1em;
+}
+
+#preview #main #text li {
+    margin-bottom: 6px;
+}
+
+
+#preview #set_number {
+    font-size: 13px;
+    line-height: 19px;
+    text-align: right;
+}
+
+#preview #set_order {
+    width: 50px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+/* combat icons */
+#preview #combat_icons {
+    position: absolute;
+    overflow: hidden;
+}
+
+#preview #combat_icons img {
+    position: relative;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+/* force icons */
+#preview #force {
+    position: absolute;
+    overflow: hidden;
+    line-height: 15px;
+}
+
+#preview #force img {
+    position: relative;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+/*
+#preview p, #preview div, #preview img {
+    border: 1px solid red;
+}
+*/

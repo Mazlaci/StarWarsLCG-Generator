@@ -1,0 +1,58 @@
+.editor #text_buttons {
+    padding-left: 2.4em;
+}
+
+input[type=button].img {
+    background: #efefef no-repeat center center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #767676;
+    border-radius: 2px;
+}
+input[type=button].img:hover {
+    background-color: #e5e5e5;
+    border: 1px solid #4f4f4f;
+}
+input[type=button].img:active {
+    background-color: #f5f5f5;
+    border: 1px solid #8d8d8d;
+}
+
+.editor #text_buttons #unit {
+    background-image: url(../data/images/text_icons/unit.png);
+}
+.editor #text_buttons #unit_edge {
+    background-image: url(../data/images/text_icons/unit_edge.png);
+}
+.editor #text_buttons #blast {
+    background-image: url(../data/images/text_icons/blast.png);
+}
+.editor #text_buttons #blast_edge {
+    background-image: url(../data/images/text_icons/blast_edge.png);
+}/*
+.editor #text_buttons #tactics {
+    background-image: url(../data/images/text_icons/tactics.png);
+}
+.editor #text_buttons #tactics_edge {
+    background-image: url(../data/images/text_icons/tactics_edge.png);
+}
+
+.editor #text_buttons #sith {
+    background-image: url(../data/images/text_icons/sith.png);
+}
+.editor #text_buttons #imperial {
+    background-image: url(../data/images/text_icons/imperial.png);
+}
+.editor #text_buttons #scum {
+    background-image: url(../data/images/text_icons/scum.png);
+}*/
+.editor #text_buttons #smuggler {
+    background-image: url(../data/images/text_icons/smuggler.png);
+}/*
+.editor #text_buttons #rebel {
+    background-image: url(../data/images/text_icons/rebel.png);
+}*/
+.editor #text_buttons #jedi {
+    background-image: url(../data/images/text_icons/jedi.png);
+}
